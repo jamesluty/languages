@@ -1,0 +1,85 @@
+@charset "ISO-8859-1";
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+.homeWrapper {
+	margin: 40px;
+}
+
+.formDiv {
+	display: flex;
+	justify-content: left;
+	margin-top: 80px;
+}
+
+.createForm {
+	width: 35%;
+}
+
+.formItem {
+	display: flex;
+	flex-direction: column;
+	margin-bottom:10px;
+}
+
+.formInput {
+	display: flex;
+}
+
+.formLabel, .formInput {
+	flex: 1;
+}
+
+td, th {
+	font-size: 15pt;
+}
+
+.actionBtns {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.errors {
+	color: red;
+}
+
+.editWrapper {
+	margin: 40px 100px;
+	width: 35%;
+}
+
+.editPageBtns {
+	display: flex;
+	justify-content: right;
+	gap: 20px;
+	margin-bottom: 30px;
+}
+
+.editForm {
+	width: 100%;
+}
+
+.showWrapper {
+	margin: 40px 100px;
+	text-align: right;
+	width: 35%;
+}
+
+.itemDiv {
+	display: flex;
+	justify-content: space-between;
+}
+
+.showPageBtns {
+	display: flex;
+	justify-content: left;
+	gap: 20px;
+	margin-bottom: 30px;
+}
+
+.showDiv {
+	margin-top: 30px;
+}
